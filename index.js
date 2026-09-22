@@ -1,6 +1,8 @@
 function gaveta(){
     let nav = document.querySelector("header nav");
+    let overlay = document.querySelector("#overlay");
     nav.classList.add("active");
+    overlay.classList.add("active");
 }
 
 function fechargaveta(){
